@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+	  font-family: "Spectral", serif;
+	 font-size: 17px;
+	letter-spacing: 2px;
+	background-color: #FFEBC9;
+}
+.logo {
+	width: 100px;
+	height: auto;
+}
+
+
+.main-content  {
+	justify-content: center;
+	display: flex;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+	margin-right: 40px;
+		font-size: 15px;
+
+}
+
+.nav {
+	text-align: center;
+
+}
+
+.img-container {
+    margin: 30px 20px;       
+    padding: 0 25px;
+}
+
+.img-service {
+	border-radius: 20px;
+}
+
+.hang-phong {
+	text-align: center;
+	font-size: 20px;
+}
+.text p {
+	max-width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.khong-gian {
+	height: 250;
+	background-color: white;
+	display: flex;
+	margin: 30px  25px;       
+	
+
+}
+
+.row-1 , .row-2 , .row-3 {
+	margin-right: 5%;
+	margin-top: 2%;
+}
+a  {
+	color: black;
+}
+
+
+/* code phần sức khỏe */
+.sk-left, .sk-mid , .sk-right {
+	flex-direction: column; 
+	width: 33%;
+	margin-right:  1%;
+	margin-top: 5%;
+	
+	display: flex;
+}
+
+.suc-khoe, .cham-cuu, .suc-khoe-2 {
+	display: flex;
+	}
+	
+.cham-cuu img {
+	width: 67%;
+	margin-top: 3%;
+	margin-right: 2%;
+
+}
+
+.gio-mo-cua {
+	
+	margin:  10% 0%;
+}
+
+
+
+
+
+
+
+
+h2 {
+	font-size: 15px;
+}
+
+.service a {
+	color: black;
+}
+
+h1 {
+	font-size: 17px;
+	text-align: center;
+
+}
+h3 {
+	text-align: center;
+
+}
+
+
+.uu-dai p {
+	max-width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.uu-dai a {
+	color: black;
+}
+
+
+ion-icon {
+  font-size: 32px;
+  padding: 0px 20px;
+}
+
+ .location {
+	margin-left: 5%;
+}
+
+footer {
+	display: flex;
+    align-items: center;   
+	padding: 50px 0px;
+	background-color: white;
+	
+}
+
+
+.anh-logo {
+	margin: 5%;
+}
+
+.dia-chi p, .thong-tin p  {
+    display: inline;
+}
+
+.thong-tin {
+	margin-left: 10%;
+}
+
+.icon a {
+	text-decoration: none;
+}
+.icon .fb {
+	color: blue;
+}
+
+.icon .ig {
+	color: #E1306C;
+}
+.icon .yt {
+	color: red;
+}
+
+.icon .tiktok {
+	color: black;
+}

@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+	 font-family: "Spectral", serif;
+	 font-size: 17px;
+	letter-spacing: 2px;
+	background-color: #FFEBC9;
+}
+.logo {
+	width: 100px;
+	height: auto;
+}
+
+
+.main-content  {
+	justify-content: center;
+	display: flex;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+	margin-right: 40px;
+	font-size: 15px;
+
+}
+
+.nav {
+	text-align: center;
+
+}
+.video-container {
+    margin: 30px 20px;       
+    padding: 0 25px;
+	}
+video {
+	
+}
+
+.ten-tinh {
+	text-align: center;
+}
+
+.ten-resort
+{
+	text-align: center;
+	font-size: 30px;
+}
+.text p {
+	max-width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* code phần phòng */
+.phong-left, .phong-right {
+	flex-direction: column; 
+	width: 50%;
+	padding-right: 1%;
+	padding-top: 5%;
+	display: flex;
+
+}
+
+
+.phong-o {
+	display: flex;
+
+}
+
+.phong-left .premium {
+	font-size: 25px;
+	
+}
+
+.phong-right .luxury {
+	font-size: 25px;
+}
+
+.phong-o a {
+	color: black;
+	text-decoration: none;
+}
+
+.xem-phong a, a {
+	color: black;
+}
+
+
+/* code phần trải nghiệm */
+.exp-left, .exp-mid , .exp-right {
+	flex-direction: column; 
+	width: 33%;
+	padding-right: 1%;
+	padding-top: 5%;
+	display: flex;
+}
+
+.trai-nghiem {
+	display: flex;
+}
+
+
+.text .cam-ket {
+	font-size: 20px;
+}
+ion-icon {
+  font-size: 32px;
+  padding: 0px 20px;
+}
+
+ .location {
+	margin-left: 5%;
+}
+
+
+
+
+footer {
+	display: flex;
+    align-items: center;   
+	padding: 50px 0px;
+	background-color: white;
+	
+}
+
+
+.anh-logo {
+	margin: 5%;
+}
+
+.dia-chi p, .thong-tin p  {
+    display: inline;
+}
+
+.thong-tin {
+	margin-left: 10%;
+}
+
+.icon a {
+	text-decoration: none;
+}
+.icon .fb {
+	color: blue;
+}
+
+.icon .ig {
+	color: #E1306C;
+}
+.icon .yt {
+	color: red;
+}
+
+.icon .tiktok {
+	color: black;
+}
+
+

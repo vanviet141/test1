@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+	  font-family: "Spectral", serif;
+	 font-size: 17px;
+	letter-spacing: 2px;
+	background-color: #FFEBC9;
+
+}
+.logo {
+	width: 100px;
+	height: auto;
+}
+
+
+.main-content  {
+	justify-content: center;
+	display: flex;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+	margin-right: 40px;
+		font-size: 15px;
+}
+
+.left a {
+	color: black;
+}
+
+.nav {
+	text-align: center;
+
+}
+
+h1 {
+	font-size: 25px;
+}
+
+
+.img-container {
+    margin: 30px 20px;       
+    padding: 0 25px;
+	}
+
+.img-exp {
+	border-radius: 20px;
+}
+
+.trai-nghiem {
+	text-align: center;
+	font-size: 20px;
+}
+.text p {
+	max-width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.dich-vu {
+	display: flex;
+}
+
+
+.left {
+	width: 40%;
+	margin: 0% 1%;
+}
+
+.right {
+	width: 60%;
+	
+}
+
+.anh-du-thuyen {
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+}
+
+h2 {
+	font-size: 15px;
+}
+/* code phần trải nghiệm */
+.exp-left, .exp-mid , .exp-right {
+	flex-direction: column; 
+	width: 33%;
+	margin-right:  1%;
+	margin-top: 10%;
+	margin-left: 1%;
+	display: flex;
+}
+
+.kham-pha, .gia-dinh {
+	display: flex;
+	}
+.exp-right a {
+	color: black;
+}
+
+.gia-dinh a {
+	color: black;
+}
+
+
+footer {
+	display: flex;
+    align-items: center;   
+	padding: 50px 0px;
+	background-color: white;
+	
+}
+
+ion-icon {
+  font-size: 32px;
+  padding: 0px 20px;
+}
+
+ .location {
+	margin-left: 5%;
+}
+
+
+.anh-logo {
+	margin: 5%;
+}
+
+.dia-chi p, .thong-tin p  {
+    display: inline;
+}
+
+.thong-tin {
+	margin-left: 10%;
+}
+
+.icon a {
+	text-decoration: none;
+}
+
+.icon .fb {
+	color: blue;
+}
+
+.icon .ig {
+	color: #E1306C;
+}
+.icon .yt {
+	color: red;
+}
+
+.icon .tiktok {
+	color: black;
+}
+
+
